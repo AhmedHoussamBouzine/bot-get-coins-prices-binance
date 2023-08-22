@@ -28,6 +28,7 @@ ws.on('error', (error) => {
     console.error('WebSocket error', error);
 });
 
+
 ws.on('close', () => {
     console.log('WebSocket connection closed');
 });
